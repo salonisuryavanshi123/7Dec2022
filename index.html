@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS  Object Properties</title>
+        <link href="./css/style.css" rel="stylesheet">
+        <style>
+           
+        </style>
+        <script src="./js/script.js"></script>
+        <script>
+            //I can write the JS code before the closing of head tag
+        </script>
+    </head>
+    <body>
+        <h1>JS Data Types</h1>
+        <ul>
+            <li>JS Object</li>
+        </ul>
+        <h3 class="news3"></h3>
+        
+        <script src="./js/script.js"></script>
+        <script>
+            //I can write the JS code before the closing of body tag
+
+            /*
+            A day before the counting of votes for the Himachal Pradesh assembly election held last month, the Congress in the state on Wednesday expelled 30 office-bearers of its Chopal block committee for anti-party activities.
+            */
+            var news1 = {
+                //1. Property:Value
+
+                //2.
+                w1:"A",
+                w2:'day',
+                w3:`before`,
+                w4:"the",
+                w5:'counting',
+                w6:`of`,
+                w7:"votes",
+                w8:'for',
+                w9:`the`,
+                w10:"Himachal",
+                w11:'Pradesh',
+                w12:`assembly`,
+                w13:"election",
+                w14:'held',
+                w15:`last`,
+                w16:"month,",
+                w17:"the",
+                w18:'Congress',
+                w19:`in`,
+                w20:"the",
+                w21:'state',
+                w22:`on`,
+                w23:"Wednesday",
+                w24:'expelled',
+                w25:`30`,
+                w26:"office-",
+                w27:'bearers',
+                w28:`of`,
+                w29:"it`s",
+                w30:"Chopal",
+                w31:"block",
+                w32:'committee',
+                w33:"for",
+                w34:`anti`,
+                w35:"party",
+                w36:'activities'
+            };
+
+            
+
+            let _news2 = {
+                //1. Property:Value
+                w1:"Himachal",
+                w2:'Pradesh',
+                w3:`BJP`,
+                w4:"president",
+                w5:'Suresh',
+                w6:"Kashyap",
+                w7:`said`,
+                w8:"heavy",
+                w9:'voting',
+                w10:"by",
+                w11:'the',
+                w12:"women",
+                w13:'electorate',
+                w14:"and",
+                w15:`the`,
+                w16:"overall",
+                w17:'76.61',
+                w18:"per",
+                w19:'cent',
+                w20:"polling",
+                w21:'in',
+                w22:"the",
+                w23:"assembly",
+                w24:"elections",
+                w25:'was',
+                w26:"an",
+                w27:"indication",
+                w28:'that',
+                w29:"the",
+                w30:"saffron",
+                w31:'party',
+                w32:"would",
+                w33:"again",
+                w34:'from',
+                w35:'the',
+                w36:"government",
+                w37:'in',
+                w38:"the",
+                w39:'state'
+            };
+            /*
+            Newly appointed Rajasthan Congress in-charge Sukhjinder Singh Randhawa met Rahul Gandhi at the yatra on Wednesday. Meanwhile, Congress leader Riju Jhunjhunwala resigned from Congress the same day. He had contested the 2019 Lok Sabha elections from Ajmer.
+            */
+            const $news3 = {
+                //1. Property:Value
+                w1:"Newly",
+                w2:'appointed',
+                w3:'Rajasthan',
+                w4:"Congress",
+                w5:"in-",
+                w6:"charge",
+                w7:"Sukhjinder",
+                w8:'Singh',
+                w9:"Randhawa",
+                w10:"met",
+                w11:"Rahul",
+                w12:'Gandhi',
+                w13:"at",
+                w14:'the',
+                w15:"yatra",
+                w16:'on',
+                w17:"Wednesday.",
+                w18:'Meanwhile,',
+                w19:"Congress",
+                w20:"leader",
+                w21:'Riju',
+                w22:"Jhunjhunwala",
+                w23:'resigned',
+                w24:"from",
+                w25:"Congress",
+                w26:"the",
+                w27:"same",
+                w28:'day.',
+                w29:"He",
+                w30:'had',
+                w31:'contested',
+                w32:"the",
+                w33:"2019",
+                w34:'Lok',
+                w35:"Sabha",
+                w36:"elections",
+                w37:'from',
+                w38:"Ajmer"
+            };
+
+        </script>
+        <script>
+            //How many ways i can display the JS code
+            //1. console.log
+
+            //objectName.property
+            console.log(news1.w1+" "+news1.w2+' '+news1.w3+` `+news1.w4+" "+news1.w5+' '+news1.w6+` `+news1.w7+" "+news1.w8+' '+news1.w9+" "+news1.w10+" "+news1.w11+` `+news1.w12+' '+news1.w13+" "+news1.w14+" "+news1.w14+" "+news1.w15+" "+news1.w16+" "+news1.w17+" "+news1.w18+' '+news1.w19+' '+news1.w20+" "+news1.w21+' '+news1.w22+' '+news1.w23+" "+news1.w24+" "+news1.w25+' '+news1.w26+" "+news1.w27+' '+news1.w28+" "+news1.w29+" "+news1.w30+' '+news1.w31+" "+news1.w32+' '+news1.w33+" "+news1.w34+" "+news1.w35+' '+news1.w36);
+
+
+            //2. window.alert();
+
+            //objectName["property"]
+            window.alert(_news2["w1"]+" "+_news2["w2"]+" "+_news2["w3"]+" "+_news2["w4"]+" "+_news2["w5"]+" "+_news2["w6"]+" "+_news2["w7"]+" "+_news2["w8"]+" "+_news2["w9"]+" "+_news2["w10"]+" "+_news2["w11"]+" "+_news2["w12"]+" "+_news2["w13"]+" "+_news2["w14"]+" "+_news2["w15"]+" "+_news2["w16"]+" "+_news2["w17"]+" "+_news2["w18"]+" "+_news2["w19"]+" "+_news2["w20"]+" "+_news2["w21"]+" "+_news2["w22"]+" "+_news2["w23"]+" "+_news2["24"]+" "+_news2["w25"]+" "+_news2["w26"]+" "+_news2["w27"]+" "+_news2["w28"]+" "+_news2["w29"]+" "+_news2["w30"]+" "+_news2["w31"]+" "+_news2["w32"]+" "+_news2["w33"]+" "+_news2["w34"]+" "+_news2["w35"]+" "+_news2["w36"]+" "+_news2["37"]+" "+_news2["w38"]+" "+_news2["w39"]);
+
+            //3. element.innerHYML
+
+            //objectName[expression]
+
+            let a = "w1";
+            var b = "w2";
+            const c = "w3";
+            let d = "w4";
+            var e = "w5";
+            const f = "w6";
+            let g = "w7";
+            const h = "w8"; 
+            var i = "w9";
+            let j = "w10";
+            var k = "w11";
+            const l = "w12";
+            var m = 'w13';
+            let n = "w14";
+            const o = "w15";
+            var p = "w16";
+            let q = "w17";
+            const r = "w18";
+            let s = "w19";
+            var t = "w20";
+            let u = "w21";
+            var v = "w22";
+            let w = "w23";
+            var x = "w24";
+            let y = "w25";
+            var z = "w26";
+            let a1 = "w27";
+            var a2 = "w28";
+            let a3 = "w29";
+            var a4 = "w30";
+            const a5 = "w31";
+            var a6 = "w32";
+            let a7 = "w33";
+            var a8 = "w34";
+            let a9 = "w35";
+            var a10 = "w36";
+            let a11 = "w37";
+            var a12 = "w38";
+
+
+            document.querySelector('h3.news3').innerHTML = $news3[a]+" "+$news3[b]+' '+$news3[c]+" "+$news3[d]+' '+$news3[e]+' '+$news3[f]+' '+$news3[g]+' '+$news3[h]+' '+$news3[i]+' '+$news3[j]+' '+$news3[b]+' '+$news3[k]+' '+$news3[l]+' '+$news3[m]+' '+$news3[n]+' '+$news3[o]+' '+$news3[p]+' '+$news3[q]+' '+$news3[r]+' '+$news3[s]+' '+$news3[t]+' '+$news3[u]+' '+$news3[v]+' '+$news3[w]+' '+$news3[x]+' '+$news3[y]+' '+$news3[z]+' '+$news3[a1]+' '+$news3[a2]+' '+$news3[a3]+' '+$news3[a4]+' '+$news3[a5]+' '+$news3[a6]+' '+$news3[a7]+' '+$news3[a8]+' '+$news3[a9]+' '+$news3[a10]+' '+$news3[a11]+' '+$news3[a12];
+            document.querySelector('h3.news3').style.color = 'red';
+
+        </script>
+    </body>
+</html>
